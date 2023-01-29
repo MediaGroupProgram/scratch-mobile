@@ -1,8 +1,7 @@
-
 name: Waiting Line ⌛
 description: If alls places are used.
 title: "Waiting Line ⌛ "
-labels: [""]
+labels: ["Waiting Line ⌛"]
 assignees:
   - octocat
 body:
