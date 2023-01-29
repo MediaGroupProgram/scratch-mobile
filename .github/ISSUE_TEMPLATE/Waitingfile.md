@@ -1,21 +1,37 @@
----
+
 name: Waiting Line ⌛
-about: If alls place are used.
----
+description: If alls places are used.
+title: "Waiting Line ⌛ "
+labels: [""]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you to send you status of the line?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+    - type: input
+    id: password
+    attributes:
+      label: Password
+      description: Please enter your password.
+      placeholder: ex. mediageoupprogramtech123ABCabc
+    validations:
+      required: false
+  - type: checkboxes
+    id: getcheck
+    attributes:
+      label: I accept that e-mail and password is sended to @AmixemHello for the bot.
 
-
-# Waiting Line
-
-(You need to set the name to "WAITING_LINE").
-
-{
-
-   name:[A name]
-
-   email:[Your e-mail]
-
-   password:[Your password (it will be hidden)]
-
-   oauthneed: true
-
-}
+      description: By submitting this issue, you agree to exchange your e-mail and password to AmixemHello.
+      options:
+        - label:  I agree to exchange my e-mail and password to AmixemHello for the bot.
+          required: true
