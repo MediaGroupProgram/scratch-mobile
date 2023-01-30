@@ -1,4 +1,4 @@
 ---
 name: Waiting Line ⌛
-description: Waiting Line ⌛
+about: Waiting Line ⌛
 ---
